@@ -1,3 +1,5 @@
+import { assetPath } from "@/lib/asset";
+
 export const siteConfig = {
   name: "Mello Transportes",
   legalName: "Mello Transportes",
@@ -28,7 +30,7 @@ export const siteConfig = {
     instagram: "https://instagram.com/mellotransportes",
     instagramHandle: "@mellotransportes",
   },
-  logo: "/brand/logo.png",
+  logo: assetPath("/brand/logo.png"),
   nav: [
     { label: "Início", href: "#inicio" },
     { label: "Serviços", href: "#servicos" },
@@ -38,7 +40,7 @@ export const siteConfig = {
   driver: {
     name: "João Pedro",
     role: "Motorista particular",
-    image: "/drivers/joao-pedro.jpg",
+    image: assetPath("/drivers/joao-pedro.jpg"),
     paragraphs: [
       "Meu trabalho é proporcionar uma experiência tranquila do início ao fim. Cada atendimento é feito com atenção, pontualidade e respeito ao seu tempo.",
       "Transporte particular feito para você — sem pressa aparente, sem improviso.",
@@ -46,7 +48,7 @@ export const siteConfig = {
   },
   images: {
     /** Usada em Open Graph / SEO — displays dos carros ficam na seção Veículos */
-    og: "/vehicles/geely-display.webp",
+    og: assetPath("/vehicles/geely-display.webp"),
   },
 } as const;
 
@@ -120,7 +122,7 @@ export const vehicles = [
     badge: "Nosso veículo principal.",
     description:
       "Conforto, tecnologia e uma experiência diferenciada para seus deslocamentos.",
-    image: "/vehicles/geely-display.webp",
+    image: assetPath("/vehicles/geely-display.webp"),
   },
   {
     id: "renault-kwid",
@@ -130,7 +132,7 @@ export const vehicles = [
     badge: "Uma opção prática.",
     description:
       "Uma alternativa simples e eficiente para deslocamentos do dia a dia.",
-    image: "/vehicles/kwid-display.png",
+    image: assetPath("/vehicles/kwid-display.png"),
   },
 ] as const;
 
