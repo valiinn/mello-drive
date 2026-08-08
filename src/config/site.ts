@@ -4,7 +4,9 @@ export const siteConfig = {
   tagline: "Transporte particular com conforto e segurança.",
   description:
     "Motorista particular e transporte executivo com conforto, segurança e atendimento personalizado. Geely EX2 Max, Renault Kwid e atendimento direto pelo WhatsApp.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://mellotransportes.com.br",
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    "https://valiinn.github.io/mello-drive",
   locale: "pt_BR",
   region: {
     city: "Brasília",
