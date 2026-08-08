@@ -25,7 +25,6 @@ const jsonLd = {
     addressCountry: "BR",
   },
   areaServed: siteConfig.region.area,
-  sameAs: [siteConfig.social.instagram],
 };
 
 export default function HomePage() {

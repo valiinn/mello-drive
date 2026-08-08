@@ -1,8 +1,8 @@
 import { assetPath } from "@/lib/asset";
 
 export const siteConfig = {
-  name: "Mello Transportes",
-  legalName: "Mello Transportes",
+  name: "Mello Motoristas",
+  legalName: "Mello Motoristas",
   tagline: "Transporte particular com conforto e segurança.",
   description:
     "Motorista particular e transporte executivo com conforto, segurança e atendimento personalizado. Geely EX2 Max, Renault Kwid e atendimento direto pelo WhatsApp.",
@@ -25,10 +25,6 @@ export const siteConfig = {
       "Olá! Gostaria de consultar disponibilidade para transporte particular.",
     availabilityMessage:
       "Olá! Gostaria de consultar a disponibilidade do veículo.",
-  },
-  social: {
-    instagram: "https://instagram.com/mellotransportes",
-    instagramHandle: "@mellotransportes",
   },
   logo: assetPath("/brand/logo.png"),
   nav: [

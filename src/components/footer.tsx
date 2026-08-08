@@ -25,14 +25,6 @@ export function Footer() {
             >
               WhatsApp: {siteConfig.contact.phoneDisplay}
             </a>
-            <a
-              href={siteConfig.social.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link-underline transition-colors hover:text-white"
-            >
-              {siteConfig.social.instagramHandle}
-            </a>
             <p>{siteConfig.region.area}</p>
           </div>
         </div>
