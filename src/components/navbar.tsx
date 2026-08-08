@@ -68,7 +68,7 @@ export function Navbar() {
                   alt=""
                   width={32}
                   height={32}
-                  className="h-8 w-8 shrink-0 object-contain"
+                  className="h-8 w-8 shrink-0 bg-transparent object-contain"
                 />
                 <span className="truncate font-display text-base tracking-[0.04em] text-white">
                   {siteConfig.name}
@@ -144,7 +144,7 @@ export function Navbar() {
               alt=""
               width={40}
               height={40}
-              className="h-8 w-8 shrink-0 object-contain sm:h-9 sm:w-9 md:h-10 md:w-10"
+              className="h-8 w-8 shrink-0 bg-transparent object-contain sm:h-9 sm:w-9 md:h-10 md:w-10"
               priority
             />
             <span className="truncate font-display text-[15px] tracking-[0.04em] text-white sm:text-lg md:text-xl md:tracking-[0.06em]">
