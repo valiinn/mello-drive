@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900" fill="none">
+  <rect width="1800" height="900" fill="#0A0A0A"/>
+  <ellipse cx="900" cy="730" rx="420" ry="24" fill="#FFFFFF" opacity="0.04"/>
+  <text x="900" y="150" text-anchor="middle" fill="#FFFFFF" opacity="0.05" font-family="Georgia, serif" font-size="120" letter-spacing="24">KWID</text>
+  <g transform="translate(380, 300)" opacity="0.85">
+    <path d="M160 240 C200 165 280 125 400 120 L720 120 C860 125 940 165 990 230 L1040 250 C1075 258 1095 285 1095 315 L1095 355 C1095 385 1070 405 1035 405 L160 405 C125 405 105 380 105 345 L105 310 C105 275 125 248 160 240 Z" fill="#D8D8D8"/>
+    <path d="M320 145 L460 145 L510 245 L320 245 Z" fill="#6F6F6F"/>
+    <path d="M540 145 L760 145 L800 245 L520 245 Z" fill="#6F6F6F"/>
+    <circle cx="320" cy="405" r="70" fill="#1A1A1A"/>
+    <circle cx="320" cy="405" r="38" fill="#F1F1F1"/>
+    <circle cx="900" cy="405" r="70" fill="#1A1A1A"/>
+    <circle cx="900" cy="405" r="38" fill="#F1F1F1"/>
+    <rect x="1005" y="285" width="55" height="16" rx="4" fill="#FFFFFF" opacity="0.55"/>
+  </g>
+  <text x="900" y="820" text-anchor="middle" fill="#FFFFFF" opacity="0.28" font-family="Arial, sans-serif" font-size="20" letter-spacing="6">RENAULT KWID — SUBSTITUA POR FOTO OFICIAL</text>
+</svg>
